@@ -6,10 +6,10 @@
 		// TYPEWRITER
 		$("#typewriter").typewriter({
 			prefix : "",
-			text : ["Please wait", "Still loading", "Almost done"],
-			typeDelay : 100,
-			waitingTime : 1500,
-			blinkSpeed : 800
+			text : ["", "", ""],
+			typeDelay : 4000, //100
+			waitingTime : 2000, //1500
+			blinkSpeed : 2000 //800
 		});
 		
 
