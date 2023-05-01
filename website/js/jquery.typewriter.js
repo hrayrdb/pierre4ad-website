@@ -2,11 +2,11 @@
     $.fn.typewriter = function(options) {
         var settings = $.extend({
             prefix: "Prefix",
-            text: ["Hey", "This is cool, isn't it?"],
-            typeDelay: 200,
-            waitingTime: 1000,
+            text: ["", ""],
+            typeDelay: 4000, //200
+            waitingTime: 2000, //1000
             callback: null,
-            blinkSpeed: 1000
+            blinkSpeed: 2000 //1000
         }, options);
 
         return this.each(function() {
