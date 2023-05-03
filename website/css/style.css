@@ -1089,8 +1089,6 @@ main {
 }
 
 /* PAGE HEADER */
-
-
 .page-header {
   width: 100%;
   height: 100%;
@@ -1179,6 +1177,21 @@ main {
   display: block;
   font-family: "Libre Baskerville", serif;
 }
+
+/*BACKGROUND IMAGES*/
+.about-header {
+  background-image: url(../images/about.png);
+}
+.contact-header {
+  background-image: url(../images/contact.png);
+}
+.showcase-header {
+  background-image: url(../images/showcase.png);
+}
+.blog-header {
+  background-image: url(../images/blog.png);
+}
+/**/
 
 /* WORKS */
 .works {
