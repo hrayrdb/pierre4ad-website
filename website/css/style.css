@@ -1192,6 +1192,11 @@ main {
 .blog-header {
   background-image: url(../images/blog.png);
 }
+
+.threed-image {
+  background-image: url(../images/3d.png);
+  background-size: cover;
+}
 /**/
 
 /* WORKS */
