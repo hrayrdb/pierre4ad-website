@@ -1675,6 +1675,7 @@ main {
   margin-bottom: 20px;
   background: url(../images/btn-bg.jpg) center;
   -webkit-background-clip: text;
+  background-clip: padding-box;
   color: transparent;
   background-size: auto 100%;
 }
