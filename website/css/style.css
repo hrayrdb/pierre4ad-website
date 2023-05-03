@@ -1192,7 +1192,7 @@ main {
 .blog-header {
   background-image: url(../images/blog.png);
 }
-
+/*3D*/
 .threed-image:hover {
   background-image: url(../images/3d.png);
   background-size: cover;
@@ -1207,7 +1207,7 @@ opacity: 0;
 .threed-image:hover figure {
 opacity: 0;
 }
-
+/*PRODUCTION*/
 .prod-image:hover {
   background-image: url(../images/production.png);
   background-size: cover;
@@ -1222,8 +1222,66 @@ opacity: 0;
 .prod-image:hover figure {
 opacity: 0;
 }
-/**/
+/*BRANDING*/
+.branding-image:hover {
+  background-image: url(../images/branding.png);
+  background-size: cover;
+}
 
+.branding-image:hover p {
+opacity: 0;
+}
+.branding-image:hover h4 {
+opacity: 0;
+}
+.branding-image:hover figure {
+opacity: 0;
+}
+/*SOCIAL*/
+.social-image:hover {
+  background-image: url(../images/social.png);
+  background-size: cover;
+}
+
+.social-image:hover p {
+opacity: 0;
+}
+.social-image:hover h4 {
+opacity: 0;
+}
+.social-image:hover figure {
+opacity: 0;
+}
+/*BOOKING*/
+.booking-image:hover {
+  background-image: url(../images/booking.png);
+  background-size: cover;
+}
+
+.booking-image:hover p {
+opacity: 0;
+}
+.booking-image:hover h4 {
+opacity: 0;
+}
+.booking-image:hover figure {
+opacity: 0;
+}
+/*DEVELOPMENT*/
+.dev-image:hover {
+  background-image: url(../images/development.png);
+  background-size: cover;
+}
+
+.dev-image:hover p {
+opacity: 0;
+}
+.dev-image:hover h4 {
+opacity: 0;
+}
+.dev-image:hover figure {
+opacity: 0;
+}
 /* WORKS */
 .works {
   width: 100%;
