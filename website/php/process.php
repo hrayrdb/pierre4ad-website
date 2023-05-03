@@ -8,10 +8,10 @@
     
 
     $fields = array();
-    $fields{"name"} = "Name";
-    $fields{"email"} = "E-mail";
-    $fields{"subject"} = "Subject";
-    $fields{"message"} = "Message";
+    $fields['name'] = "Name";
+    $fields['email'] = "E-mail";
+    $fields['subject'] = "Subject";
+    $fields['message'] = "Message";
 
     $body = "Here is the message from yourwebsite:\n\n"; foreach($fields as $a => $b){   $body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a]); }
 
