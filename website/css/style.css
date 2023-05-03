@@ -61,6 +61,7 @@ body {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
+  cursor: url(../images/custom_mc.svg),auto;
 }
 
 html {
