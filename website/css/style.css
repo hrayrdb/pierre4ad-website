@@ -245,7 +245,15 @@ a {
 .page-loaded .soundbar {
   transform: translateX(0);
 }
+::-moz-selection { /* Code for Firefox */
+  color: #70c9c1;
+  background: transparent;
+}
 
+::selection {
+  color: #70c9c1;
+  background: transparent;
+}
 /* NAVIGATION MENU */
 .navigation-menu {
   width: 100%;
