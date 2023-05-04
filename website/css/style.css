@@ -246,13 +246,13 @@ a {
   transform: translateX(0);
 }
 ::-moz-selection { /* Code for Firefox */
-  color: #70c9c1;
-  background: transparent;
+  color: white ;
+  background: #70c9c1;
 }
 
 ::selection {
-  color: #70c9c1;
-  background: transparent;
+  color: white;
+  background: #70c9c1;
 }
 /* NAVIGATION MENU */
 .navigation-menu {
