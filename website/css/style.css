@@ -506,6 +506,7 @@ a {
   transform: translateY(-50%);
   position: absolute;
   transition: height 0.2s linear;
+
 }
 
 .equalizer span:nth-child(1) {
@@ -529,7 +530,16 @@ a {
 }
 
 .equalizer.paused span {
-  height: 3px !important;
+  /* height: 3px !important; */
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  top: 50%;
+  bottom: 0;
+  left: 0%;
+  transform: translateY(-50%);
+  position: absolute;
+  transition: height 0.2s linear;
 }
 
 /* HEADER */

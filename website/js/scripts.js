@@ -52,13 +52,13 @@
 			  audio.play();
 			}, true);
 			audio.src = source;
-			audio.autoplay = true;
+			audio.autoplay = false;
 			audio.loop = true;
 			audio.volume = 0.2;
 		
 
 			$('.equalizer').click();		
-			var playing = true;		
+			var playing = false;		
 			$('.equalizer').on('click', function(e) {
 				if (playing == false) {
 			  audio.play();
