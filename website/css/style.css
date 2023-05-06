@@ -803,7 +803,7 @@ a {
   display: inline-block;
   border-radius: 54px;
   border-bottom: 4px solid rgba(0, 0, 0, 0.2);
-  background: url(../images/btn-bg.jpg);
+  background: url(../images/btn-bg.png);
   background-size: cover;
   color: #fff;
   font-weight: 800;
@@ -823,6 +823,7 @@ a {
 }
 .header .btn-ghost span {
   position: relative;
+  left: -20px;
   display: inline-block;
 }
 .header .btn-ghost span:before {
