@@ -49,6 +49,7 @@ theme.
 */
 /* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400|Poppins:300,400,600,800&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 /* BODY */
 body {
   height: 100%;
@@ -202,7 +203,7 @@ a {
   display: inline-block;
   transform: translateY(-70px);
   color: #fff;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
 }
 .preloader .typewriter #typewriter-text {
   float: left;
@@ -309,8 +310,7 @@ a {
 .navigation-menu .inner address {
   float: left;
   color: #fff;
-  font-family: "Libre Baskerville", serif;
-  font-size: 20px;
+  font-family: "Exo 2", sans-serif;  font-size: 20px;
   transform: translateX(-200%);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -557,8 +557,7 @@ a {
   bottom: 90px;
   margin: 0;
   padding: 0;
-  font-family: "Libre Baskerville", serif;
-  -webkit-transition: all 0.3s ease;
+  font-family: "Exo 2", sans-serif;  -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
   transition-duration: 500ms;
@@ -616,7 +615,7 @@ a {
   top: 0;
   z-index: 9;
   padding: 30px 40px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   transform: translateY(-100%);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -652,7 +651,7 @@ a {
   font-weight: 400;
   line-height: 46px;
   color: #fff;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -699,7 +698,7 @@ a {
   float: left;
   line-height: 46px;
   color: #fff;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
 }
 .soundbar .sound .sound-text {
   height: 46px;
@@ -707,8 +706,7 @@ a {
   float: left;
   overflow: hidden;
   text-align: center;
-  font-family: "Libre Baskerville", serif;
-}
+  font-family: "Exo 2", sans-serif;}
 .soundbar .sound .sound-text.move-up b {
   transform: translateY(-50%);
 }
@@ -772,7 +770,7 @@ a {
 .header h5 {
   font-size: 36px;
   color: #fff;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   margin-bottom: 0;
   position: relative;
 }
@@ -1129,7 +1127,7 @@ main {
   bottom: 30px;
   margin: 0;
   padding: 0;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   z-index: 2;
 }
 .page-header .social-media li {
@@ -1185,6 +1183,7 @@ main {
   padding: 0 140px;
 }
 .page-header .inner-content .inner h2 {
+  
   font-size: 8vw;
   color: #fff;
   display: block;
@@ -1195,7 +1194,7 @@ main {
   font-size: 20px;
   color: #fff;
   display: block;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
 }
 
 /*BACKGROUND IMAGES*/
@@ -1331,7 +1330,7 @@ opacity: 0;
   font-weight: 300;
   line-height: 34px;
   margin: 0;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
 }
 .works .works-grid {
   width: 100%;
@@ -1403,7 +1402,7 @@ opacity: 0;
   display: block;
   margin-bottom: 10px;
   color: #8f999a;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 13px;
 }
 .works .works-grid li figure figcaption h3 {
@@ -1439,7 +1438,7 @@ opacity: 0;
   font-weight: 300;
   line-height: 34px;
   margin-bottom: 50px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
 }
 .works-single article {
   margin-bottom: 50px;
@@ -1451,7 +1450,7 @@ opacity: 0;
 .works-single article p {
   margin: 0;
   font-size: 16px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   color: #8f999a;
 }
 .works-single ul {
@@ -1491,7 +1490,7 @@ opacity: 0;
 }
 .awards p {
   font-size: 18px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   line-height: 30px;
   color: #8f999a;
   padding-left: 10%;
@@ -1548,7 +1547,7 @@ opacity: 0;
   margin: 0 auto;
 }
 .side-content-block .inner .holder p {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 23px;
   line-height: 36px;
   margin-bottom: 44px;
@@ -1595,7 +1594,7 @@ opacity: 0;
   height: 50px;
 }
 .icon-content-block .content-box h4 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   color: #fff;
   margin-bottom: 20px;
   font-size: 18px;
@@ -1643,7 +1642,7 @@ opacity: 0;
   margin-bottom: 50px;
 }
 .clients h6 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 18px;
 }
 .clients ul {
@@ -1736,7 +1735,7 @@ opacity: 0;
   font-size: 19px;
   line-height: 30px;
   color: #8f999a;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   margin: 0;
 }
 
@@ -1793,7 +1792,7 @@ opacity: 0;
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   color: #8f999a;
 }
 .services-content-block .content-box ul li {
@@ -1979,7 +1978,7 @@ opacity: 0;
   margin-bottom: 40px;
   background: #6FC9C0;
   color: #fff;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   position: relative;
 }
 .blog .post .post-content blockquote:before {
@@ -2035,7 +2034,7 @@ opacity: 0;
   display: block;
   color: #8f999a;
   margin-bottom: 10px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 16px;
 }
 .blog .post .post-content .post-title {
@@ -2103,7 +2102,7 @@ opacity: 0;
   color: #8f999a;
 }
 .contact .title h3 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 38px;
   margin: 0;
 }
@@ -2117,7 +2116,7 @@ opacity: 0;
   font-weight: 800;
 }
 .contact .contact-box p {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   line-height: 30px;
   font-size: 18px;
   color: #8f999a;
@@ -2125,7 +2124,7 @@ opacity: 0;
 }
 .contact .contact-box a {
   display: block;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   line-height: 30px;
   font-size: 18px;
   color: #8f999a;
@@ -2258,7 +2257,7 @@ opacity: 0;
 }
 .footer .container .content-box p {
   font-size: 17px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
   line-height: 32px;
   margin: 0;
 }
@@ -2271,7 +2270,7 @@ opacity: 0;
   padding: 40px 40px;
   background: #313434;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
-  font-family: "Libre Baskerville", serif;
+  font-family: "Exo 2", sans-serif;
 }
 .sub-footer .container {
   display: flex;
@@ -2351,10 +2350,12 @@ opacity: 0;
   }
 
   .page-header .inner-content .inner h2 {
+    
     font-size: 12vw;
   }
 
   .text-content-block h2 {
+    
     font-size: 10vw;
     margin-bottom: 50px;
   }
@@ -2454,6 +2455,7 @@ opacity: 0;
   }
 
   .header .swiper-container .swiper-slide h2 {
+    
     font-size: 60px;
   }
 
