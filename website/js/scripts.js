@@ -266,9 +266,9 @@
 
 				if ($(document).scrollTop() > position2-300){
 				if (!lastWasLower)
-					$('#1').html("29");
-					$('#2').html("37");
-					$('#3').html("78");
+					$('#1').html("5");
+					$('#2').html("20");
+					$('#3').html("1");
 
 				lastWasLower = true;
 					} else {
