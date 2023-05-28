@@ -1210,6 +1210,15 @@ main {
 .blog-header {
   background-image: url(../images/blog.png);
 }
+.almera-header {
+  background-image: url(../images/livewithpassion.jpg);
+}
+.casio-header {
+  background-image: url(../images/gshock.jpg);
+}
+.naughty-header {
+  background-image: url(../images/livewithpassion.jpg);
+}
 /*3D*/
 .threed-image:hover {
   background-image: url(../images/3d.png);
