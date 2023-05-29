@@ -61,13 +61,11 @@
 </style>
 <body>
 <div class="preloader">
-	<div class="layer"></div>
-	<div class="inner">
-	<figure>
-		<img src="images/loading.gif" alt="Image">
-		</figure>
-	</div>
-	<!-- end inner -->
+  <div class="layer"></div>
+  <div class="inner">
+    <figure> <img src="images/loading.gif" alt="Image"> </figure>
+   </div>
+  <!-- end inner --> 
 </div>
 <!-- end preloader -->
 <div class="navigation-menu">
@@ -84,17 +82,17 @@
     <ul>
       <li><a href="index.html">HOME</a>
       <li><a href="about.html">ABOUT</a></li>
+      <li><a href="showcase.html">SHOWCASE</a>
       <li><a href="blog.html">BLOG</a></li>
       <li><a href="contact.html">CONTACT</a></li>
-      <li><a href="careers.html">CAREERS</a></li>
     </ul>
   </div>
   <!-- end inner --> 
 </div>
 <!-- end navigation-menu -->
 <div class="transition-overlay">
-	<div class="layer"></div>
-	<!-- end layer -->
+  <div class="layer"></div>
+  <!-- end layer --> 
 </div>
 <!-- end transition-overlay -->
 <nav class="navbar">
@@ -110,8 +108,8 @@
   <!-- end sandwich-nav --> 
 </nav>
 <!-- end navbar -->
-<header class="page-header showcase-header">
-		<aside class="soundbar">
+<header class="page-header contact-header">
+  <aside class="soundbar">
     <div class="sound">
       <div class="sound-title"> SOUND </div>
       <!-- end sound-title -->
@@ -126,122 +124,107 @@
     </div>
     <!-- end sound --> 
   </aside>
-		<!-- end soundbar -->
-		<ul class="social-media">
-		  <li><a href="https://www.facebook.com/Pierre4Ad">Facebook</a></li>
+  <!-- end soundbar -->
+  <ul class="social-media">
+    <li><a href="https://www.facebook.com/Pierre4Ad">Facebook</a></li>
       <li><a href="https://www.instagram.com/pierre4ad/">Instagram</a></li>
-		</ul>
-		<div class="inner-content">
-		<div class="inner">
-		<div class="container">
-			<h2>PORTFOLIO</h2>
-			<h6>Check out some of our work!</h6>
-			</div>
+  </ul>
+  <div class="inner-content">
+    <div class="inner">
+     <div class="container">
+      <h2>CAREERS</h2>
+      <h6>Check our required positions, and apply!</h6>
+      </div>
 				<!-- end container -->
-		</div>
-		<!-- end inner -->
-		</div>
-		<!-- end inner-content -->
+    </div>
+    <!-- end inner --> 
+  </div>
+  <!-- end inner-content --> 
 </header>
 <!-- end page-header -->
 <main>
-	<section class="works">
-   <div class="container">
-    <div class="works-title wow fadeIn">
-      <h2>SHOWCASES</h2>
-      <p>We create digital experiences for brands communicating the unique services provided to your customers. Creativity for us something personal.</p>
+  <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 wow fadeIn">
+          <div class="title">
+            <h5>CONTACT</h5>
+            <h3>Get in touch</h3>
+          </div>
+          <!--end title --> 
+        </div>
+        <!-- end col-12 -->
+        <div class="col-md-6 wow fadeIn">
+          <div class="contact-box">
+            <h6>SAY HELLO</h6>
+            <p>Al Tahrir Square<br>
+              Damascus - Syria</p>
+          </div>
+          <!--end contact-box -->
+		  </div>
+         <!-- end col-6 -->
+          <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+          <div class="contact-box">
+            <h6>LET'S TALK</h6>
+            <a href="#">+963 991 780 980</a>
+            <h6>REACH US</h6>
+            <a href="#">info@pierre4ad.com
+            </a> </div>
+          <!--end contact-box --> 
+        </div>
+        <!-- end col-6 -->
+        <div class="col-12 wow fadeIn">
+          <div class="map" id="map"></div>
+          <!-- end map --> 
+        </div>
+        <!-- end col-12 -->
+        <div class="col-md-5 wow fadeIn">
+        <div class="title">
+          <h5>CONTACT FORM</h5>
+          <h3>Let's Do it Together</h3>
+        </div>
+        <!--end title -->
+        </div>
+        <!-- end col-5 -->
+         <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+        <form id="contact" name="contact" method="post">
+          <div class="form-group"> <span>Your name</span>
+            <input type="text" name="name" id="name" required>
+          </div>
+          <!-- end form-group -->
+          <div class="form-group"> <span>Your e-mail</span>
+            <input type="text" name="email" id="email" required>
+          </div>
+          <!-- end form-group -->
+          <div class="form-group"> <span>Subject</span>
+            <input type="text" name="subject" id="subject" required>
+          </div>
+          <!-- end form-group -->
+          <div class="form-group"> <span>Your message</span>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+          <!-- end form-group -->
+          <div class="form-group">
+            <button id="submit" type="submit" name="submit">SUBMIT</button>
+          </div>
+          <!-- end form-group -->
+        </form>
+        <!-- end form --> 
+         <div class="form-group">
+          <div id="success" class="alert alert-success" role="alert"> Your message was sent successfully! We will be in touch as soon as we can. </div>
+        <!-- end success -->
+        <div id="error" class="alert alert-danger" role="alert"> Something went wrong, try refreshing and submitting the form again. </div>
+        <!-- end error --> 
+        </div>
+        <!-- end form-group -->
+		  </div>
+     <!-- end col-6 -->
+      </div>
+      <!-- end row --> 
     </div>
-    <!-- end works-title -->
-    </div>
-    <!-- end container -->
-    <ul class="works-grid">
-      <li class="wow fadeIn" data-wow-delay="0s">
-        <figure> <a href="casio.html" ><img src="images/casio.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>Mobile App & UI-UX Design</small>
-            <h3>Start Engine</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0.1s">
-        <figure> <a href="naughtyburger.html"><img src="images/burger.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>Corporate website & e-Commerce</small>
-            <h3>Naughty Burger</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0.2s">
-        <figure> <a href="almera.html" ><img src="images/almaza.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>UI-UX Design & Mobile App</small>
-            <h3>Line Up</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0s">
-        <figure> <a ><img src="images/works04.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>Corporate website & Mobile App</small>
-            <h3>Moviester</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0.1s">
-        <figure> <a ><img src="images/works05.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>Mobile App & Website</small>
-            <h3>QBS Bank</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0.2s">
-        <figure> <a ><img src="images/works06.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>e-Commerce & UI UX Design</small>
-            <h3>Eventer</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0s">
-        <figure> <a ><img src="images/works07.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>Mobile App & UI-UX Design</small>
-            <h3>Coursest</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0.1s">
-        <figure> <a ><img src="images/works08.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>Corporate website & e-Commerce</small>
-            <h3>Travello</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0.2s">
-        <figure> <a ><img src="images/works09.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>UI-UX Design & Mobile App</small>
-            <h3>Water Melon</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0s">
-        <figure> <a ><img src="images/works10.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>Mobile App & UI-UX Design</small>
-            <h3>Cup Cake</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0.1s">
-        <figure> <a ><img src="images/works12.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>Corporate website & e-Commerce</small>
-            <h3>Building</h3>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="wow fadeIn" data-wow-delay="0.2s">
-        <figure> <a ><img src="images/works11.jpg" alt="Image"></a>
-          <figcaption> <span></span> <small>UI-UX Design & Mobile App</small>
-            <h3>Digital Shop</h3>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
+    <!-- end container --> 
   </section>
-  <!-- end works -->
+  <!-- end contact -->
   <footer class="footer">
     <div class="container">
      <div class="content-box wow fadeIn" data-wow-delay="0s">
@@ -262,18 +245,19 @@
    </footer>
   <!-- end footer -->
   <footer class="sub-footer">
-   <div class="container wow fadeIn"><small>All rights reserved © Pierre4Ad</small>
-    <ul>
-      <li><a href="https://www.facebook.com/Pierre4Ad">Facebook</a></li>
-      <li><a href="https://www.instagram.com/pierre4ad/">Instagram</a></li>
-    </ul>
+    <div class="container wow fadeIn"><small>All rights reserved © Pierre4Ad</small>
+      <ul>
+        <li><a href="https://www.facebook.com/Pierre4Ad">Facebook</a></li>
+        <li><a href="https://www.instagram.com/pierre4ad/">Instagram</a></li>
+      </ul>
     </div>
-    <!-- end container -->
+    <!-- end container --> 
   </footer>
   <!-- end sub-footer --> 
 </main>
-<!-- end main --> 
-<audio id="link" src="audio/link.mp3" preload="auto"></audio><!-- JS FILES --> 
+<!-- end main -->
+<audio id="link" src="audio/link.mp3" preload="auto"></audio>
+<!-- JS FILES --> 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/swiper.min.js"></script> 
@@ -281,9 +265,14 @@
 <script src="js/isotope.min.js"></script> 
 <script src="js/imagesloaded.pkgd.min.js"></script> 
 <script src="js/jquery.typewriter.js"></script> 
-<script src="js/odometer.min.js"></script>  
+<script src="js/odometer.min.js"></script> 
 <script src="js/fancybox.min.js"></script> 
 <script src="js/wow.min.js"></script> 
+<script src="js/jquery.form.min.js"></script> 
+<script src="js/jquery.validate.min.js"></script> 
+<script src="js/contact.form.min.js"></script> 
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDsUcTjt43mTheN9ruCsQVgBE-wgN6_AfY&#038'></script> 
+<script src="js/googlemaps.min.js"></script> 
 <script src="js/scripts.js"></script>
 </body>
 </html>
