@@ -74,6 +74,23 @@ html {
   overflow: hidden !important;
 }
 
+@keyframes neon-effect {
+  0% {
+    text-shadow: 0 0 10px #6FC9C0, 0 0 20px #6FC9C0, 0 0 40px #6FC9C0, 0 0 60px #6FC9C0, 0 0 80px #6FC9C0, 0 0 1400px #6FC9C0, 0 0 160px #6FC9C0, 0 0 200px #6FC9C0;
+  }
+  
+  100% {
+    text-shadow: 0 0 10px #6FC9C0, 0 0 20px #6FC9C0, 0 0 40px #6FC9C0, 0 0 60px #6FC9C0, 0 0 80px #6FC9C0, 0 0 1400px #6FC9C0, 0 0 160px #6FC9C0, 0 0 200px #6FC9C0;
+  }
+}
+.cool-text {
+  border-radius: 50px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 48px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: neon-effect 1s ease-in-out infinite alternate;
+}
 .no-margin {
   margin: 0 !important;
 }
@@ -1761,6 +1778,7 @@ opacity: 0;
   padding: 0 5%;
 }
 .services-content-block .content-box {
+  border-radius: 25% 10%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -1787,13 +1805,14 @@ opacity: 0;
 }
 .services-content-block .content-box h4 {
   width: 100%;
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 700;
   margin-bottom: 20px;
-  background: url(../images/btn-bg.jpg) center;
+  background: url(../images/black.png) center;
   -webkit-background-clip: text;
   background-clip: padding-box;
-  color: transparent;
+  color: white;
+  font-style: italic;
   background-size: auto 100%;
 }
 .services-content-block .content-box ul {
