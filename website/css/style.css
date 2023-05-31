@@ -1377,6 +1377,31 @@ main {
     }
   }
 
+  .horizontal-scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .horizontal-scroll-container ul {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .horizontal-scroll-container li {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  .horizontal-scroll-container li:not(:last-child) {
+    margin-right: calc((100% - 200px) / 4); /* Adjust the width and number of elements */
+  }
+  
+  .horizontal-scroll-container figure {
+    width: 100%;
+  }
+  
 /*BACKGROUND IMAGES*/
 .about-header {
   background-image: url(../images/about.png);
@@ -2078,6 +2103,89 @@ opacity: 0;
   display: block;
 }
 
+/* JOBS */
+.jobs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0;
+  background: #dbe4e4;
+}
+.jobs * {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+.jobs ul {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.jobs ul li {
+  width: 20%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-right: 1px solid #dbe4e4;
+}
+.jobs ul li:hover {
+  transform: translateY(-40px);
+}
+.jobs ul li:hover .social-links {
+  border-radius: 30px;
+  opacity: 1;
+}
+.jobs ul li:last-child {
+  border-right: 0;
+}
+.jobs ul li {
+ padding: 10px;
+}
+
+.jobs ul li figure {
+  width: 200%;
+  float: left;
+  margin: 0;
+  background: #fff;
+}
+.jobs ul li figure img {
+  width: 100%;
+  float: left;
+}
+.jobs ul li figure figcaption {
+  width: 100%;
+  float: left;
+  padding: 15px;
+  position: relative;
+}
+.jobs ul li figure figcaption h5 {
+  font-weight: 600;
+}
+.jobs ul li figure figcaption .social-links {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  z-index: 2;
+  background: #fff;
+  padding: 3px;
+  opacity: 0;
+  padding-left: 15px;
+}
+.jobs ul li figure figcaption .social-links a {
+  float: left;
+  margin-right: 10px;
+}
+.jobs ul li figure figcaption .social-links a:hover {
+  color: #6FC9C0;
+}
+.jobs ul li figure figcaption small {
+  display: block;
+}
 /* BLOG */
 .blog {
   width: 100%;
