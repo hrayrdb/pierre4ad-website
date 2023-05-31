@@ -2132,9 +2132,9 @@ opacity: 0;
   list-style: none;
   border-right: 1px solid #dbe4e4;
 }
-.jobs ul li:hover {
+/* .jobs ul li:hover {
   transform: translateY(-40px);
-}
+} */
 .jobs ul li:hover .social-links {
   border-radius: 30px;
   opacity: 1;
