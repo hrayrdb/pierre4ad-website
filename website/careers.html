@@ -149,55 +149,30 @@
     <section class="contact">
       <div class="container">
         <div class="row">
-          <div class="col-12 wow fadeIn">
-            <div class="title">
-              <h5>CONTACT</h5>
-              <h3>Get in touch</h3>
-            </div>
-          </div>
-          <div class="col-md-6 wow fadeIn">
-            <div class="contact-box">
-              <h6>SAY HELLO</h6>
-              <p>Al Tahrir Square<br>
-                Damascus - Syria</p>
-            </div>
-          </div>
-          <!-- end col-6 -->
-          <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-            <div class="contact-box">
-              <h6>LET'S TALK</h6>
-              <a href="#">+963 991 780 980</a>
-              <h6>REACH US</h6>
-              <a href="#">info@pierre4ad.com
-              </a>
-            </div>
-            <!--end contact-box -->
-          </div>
-
           <!-- end col-12 -->
           <div class="col-md-5 wow fadeIn">
             <div class="title">
-              <h5>CONTACT FORM</h5>
+              <h5>APPLICATION FORM</h5>
               <h3>Let's Do it Together</h3>
             </div>
             <!--end title -->
           </div>
           <!-- end col-5 -->
           <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-            <form id="contact" name="contact" method="post">
+            <form id="application" name="application" method="post">
               <div class="form-group"> <span>Your name</span>
                 <input type="text" name="name" id="name" required>
               </div>
               <!-- end form-group -->
               <div class="form-group"> <span>Your e-mail</span>
-                <input type="text" name="email" id="email" required>
+                <input type="email" name="email" id="email" required>
               </div>
               <!-- end form-group -->
               <div class="form-group"> <span>Your phone number</span>
                 <input type="text" name="number" id="number" required>
               </div>
-              <div class="form-group"> <span>Subject</span>
-                <input type="text" name="subject" id="subject" required>
+              <div class="form-group"> <span>CV</span>
+                <input type="file" id="cv" name="cv" accept=".pdf" style="padding-top: 15px;">
               </div>
               <!-- end form-group -->
               <div class="form-group"> <span>Your message</span>
@@ -211,7 +186,7 @@
             </form>
             <!-- end form -->
             <div class="form-group">
-              <div id="success" class="alert alert-success" role="alert"> Your message was sent successfully! We will be
+              <div id="success" class="alert alert-success" role="alert"> Your application was sent successfully! We will be
                 in touch as soon as we can. </div>
               <!-- end success -->
               <div id="error" class="alert alert-danger" role="alert"> Something went wrong, try refreshing and
