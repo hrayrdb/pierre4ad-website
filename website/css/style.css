@@ -2052,6 +2052,7 @@ opacity: 0;
 }
 .team ul li:hover .social-links {
   opacity: 1;
+  border-radius: 20px;
 }
 .team ul li:last-child {
   border-right: 0;
