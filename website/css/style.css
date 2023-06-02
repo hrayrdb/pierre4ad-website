@@ -1135,7 +1135,7 @@ main {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  background: url(../images/int-hero.jpg) center;
+  background: url(../images/marketing101-1.jpg) center;
   background-size: cover;
 }
 .page-header .social-media {
@@ -1413,7 +1413,7 @@ main {
   background-image: url(../images/showcase.png);
 }
 .blog-header {
-  background-image: url(../images/blog.png);
+  background-image: url(../images/blog1.jpg);
 }
 .almera-header {
   background-image: url(../images/livewithpassion.jpg);
