@@ -1228,6 +1228,17 @@ main {
   font-family: "Exo 2", sans-serif;
 }
 /*HRAYR*/
+
+.button{
+  height: 54px;
+  background: #6fc9c0;
+  color: #fff; 
+  padding: 0 30px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 40px;
+}
 .square {
   width: 100%;
   aspect-ratio: 1/1;
