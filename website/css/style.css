@@ -1228,6 +1228,10 @@ main {
   font-family: "Exo 2", sans-serif;
 }
 /*HRAYR*/
+.square {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .letter-image {
   position: absolute;
   top: 50%;
@@ -1536,7 +1540,7 @@ main {
 /*DEVELOPMENT*/
 .dev-image:hover {
   background-image: url(../images/development.png);
-  background-size: cover;
+  background-size:cover;
 }
 
 .dev-image:hover p {
@@ -1812,7 +1816,7 @@ main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background: #323434;
+  background: #313434;
   text-align: center;
 }
 .icon-content-block * {
@@ -1826,11 +1830,9 @@ main {
   flex: 1;
   padding: 100px 2vw;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/*.icon-content-block .content-box:hover {
-  background-size: cover;
-} */
 .icon-content-block .content-box:last-child {
   border-right: none;
 }
@@ -1845,7 +1847,8 @@ main {
   font-family: "Exo 2", sans-serif;
   color: #fff;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: bolder;
 }
 .icon-content-block .content-box p {
   margin-bottom: 20px;
@@ -1988,6 +1991,7 @@ main {
 }
 
 /* SERVICES CONTENT BLOCK */
+
 .services-content-block {
   width: 100%;
   display: flex;
@@ -2667,6 +2671,9 @@ main {
 
   .icon-content-block {
     flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .icon-content-block .content-box {
