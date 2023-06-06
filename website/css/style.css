@@ -1290,6 +1290,7 @@ main {
 
 /*TABS END */
 .button {
+  cursor: pointer;
   height: 54px;
   background: #6fc9c0;
   color: #fff;
